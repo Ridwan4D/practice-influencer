@@ -112,6 +112,19 @@ font-family: 'Poppins', sans-serif;
     z-index: 10;
 }
 
+/* main section start */
+main {
+    margin: 0 165px;
+}
+
+main section {
+    margin-top: 100px;
+}
+
+/* brand shop section start */
+.logo-container img {
+    margin: 0 30px;
+}
 
 
 /* media query part start */
@@ -168,6 +181,18 @@ font-family: 'Poppins', sans-serif;
         top: 30px;
         left: 25px;
     }
+
+    /* main part start */
+    main {
+        margin: 0 10px;
+    }
+    /* logo part start */
+    .logo-container{
+        text-align: center;
+    }
+    .logo-container img {
+        margin: 10px 20px;
+    }
 }
 
 /* medium device query */
@@ -205,5 +230,13 @@ font-family: 'Poppins', sans-serif;
     .header-img .camera {
         top: 35px;
         left: 30px;
+    }
+
+    /* main section start */
+    main {
+        margin: 0 10px;
+    }
+    .logo-container img {
+        margin: 12px 30px;
     }
 }
